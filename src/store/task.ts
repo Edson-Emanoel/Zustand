@@ -16,7 +16,7 @@ type TaskStore = {
 }
 
 export const useTaskStore = create<TaskStore>((set) => ({
-    slogan: "Teste",
+    slogan: "Projeto",
     tasks: [],
     addTask: (text) => set((state) => ({
         tasks: [ ...state.tasks, { id: Date.now(), text: text } ]

@@ -1,0 +1,23 @@
+ul {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+}
+
+li {
+      color: #FFF;
+      list-style: none;
+      background-color: #1A1A1C;
+
+      width: 435px;
+      height: 50px;
+      border-radius: 8px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+li p {
+      margin-top: 15px;
+}

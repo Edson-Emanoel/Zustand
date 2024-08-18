@@ -7,10 +7,10 @@ function App() {
   const { slogan } = useTaskStore();
 
   return (
-    <>
-      <h1>{slogan}</h1>
+    <div className="container mt-3">
+      <h1 className='mx-3'>{slogan}</h1>
       <TaskList />
-    </>
+    </div>
   )
 }
 
